@@ -2,6 +2,8 @@
 
 EP 1 de Inteligência Artificial feito com base nas seguintes especificações: https://crivelaro.notion.site/Bra-o-Rob-tico-d1b21eea93b346c99d3c03af9bb5024e
 
+![Código Base Heuristica](https://colab.research.google.com/drive/13rlXKSt53IEjungSne_3cI2y_3DTRMDW#scrollTo=Gzttcupo0Mdh)
+
 # Modelagem do Problema e Conclusões
 
 Esta seção apresenta a modelagem do problema do empilhamento de caixas e a análise dos algoritmos de busca utilizados para solucioná-lo.
