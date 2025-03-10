@@ -1,0 +1,151 @@
+=== Busca A* ===
+# configuração final das 6 posições
+50 40 30 25
+20 15 10 5
+B
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+# movimentos do braço mecânico até o estado final
+E 1 P 30 2
+E 1 S 30 5
+D 3 P 10 6
+E 3 S 10 15
+D 3 P 20 6
+E 2 S 20 10
+D 3 P 5 6
+E 1 S 5 5
+D 1 P 15 2
+E 3 S 15 15
+E 1 P 10 2
+D 1 S 10 5
+D 4 P 25 8
+E 5 S 25 25
+D 3 P 5 6
+E 2 S 5 10
+Estados visitados: 4922
+
+=== Busca Gananciosa (Greedy) ===
+# configuração final das 6 posições
+50 40 30 25
+20 15 10 5
+B
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+# movimentos do braço mecânico até o estado final
+D 3 P 25 6
+E 5 S 25 25
+D 4 P 5 8
+E 3 S 5 15
+D 3 P 15 6
+E 4 S 15 20
+D 1 P 5 2
+D 2 S 5 10
+E 2 P 30 4
+D 3 S 30 15
+E 4 P 15 8
+D 1 S 15 5
+D 2 P 5 4
+E 3 S 5 15
+D 3 P 10 6
+E 2 S 10 10
+E 1 P 5 2
+D 1 S 5 5
+E 1 P 25 2
+D 4 S 25 20
+E 1 P 20 2
+E 3 S 20 15
+D 4 P 25 8
+E 1 S 25 5
+E 3 P 20 6
+D 3 S 20 15
+D 1 P 30 2
+E 4 S 30 20
+D 3 P 20 6
+D 1 S 20 5
+E 1 P 25 2
+E 3 S 25 15
+D 4 P 20 8
+E 1 S 20 5
+E 2 P 5 4
+D 3 S 5 15
+E 3 P 10 6
+D 2 S 10 10
+D 1 P 5 2
+E 3 S 5 15
+D 2 P 10 4
+D 1 S 10 5
+E 1 P 20 2
+D 2 S 20 10
+E 1 P 10 2
+E 1 S 10 5
+D 2 P 20 4
+E 1 S 20 5
+E 3 P 5 6
+D 2 S 5 10
+E 2 P 15 4
+D 3 S 15 15
+E 1 P 5 2
+E 2 S 5 10
+D 2 P 10 4
+D 2 S 10 10
+E 1 P 15 2
+E 1 S 15 5
+D 2 P 10 4
+E 2 S 10 10
+E 2 P 5 4
+D 2 S 5 10
+D 1 P 20 2
+E 3 S 20 15
+D 2 P 5 4
+E 2 S 5 10
+D 2 P 10 4
+D 1 S 10 5
+E 1 P 15 2
+D 2 S 15 10
+E 1 P 10 2
+E 1 S 10 5
+D 2 P 15 4
+E 1 S 15 5
+E 3 P 5 6
+D 2 S 5 10
+D 1 P 15 2
+E 3 S 15 15
+D 2 P 5 4
+D 1 S 5 5
+E 1 P 10 2
+E 2 S 10 10
+D 3 P 5 6
+E 3 S 5 15
+Estados visitados: 5121
+
+=== Busca Dijkstra ===
+# configuração final das 6 posições
+50 40 30 25
+20 15 10 5
+B
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+# movimentos do braço mecânico até o estado final
+E 1 P 30 2
+E 1 S 30 5
+D 3 P 10 6
+E 3 S 10 15
+D 3 P 20 6
+E 2 S 20 10
+D 3 P 5 6
+E 1 S 5 5
+D 1 P 15 2
+E 3 S 15 15
+E 1 P 10 2
+D 1 S 10 5
+D 2 P 5 4
+E 2 S 5 10
+D 4 P 25 8
+E 5 S 25 25
+Estados visitados: 24968
